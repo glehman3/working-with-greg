@@ -1,53 +1,52 @@
 # Gregory Lehman
 
-**Senior Software Quality Engineer / SDET** · [Intuit](https://www.intuit.com/) (Mailchimp)  
-[LinkedIn](https://www.linkedin.com/in/gregory-lehman) · Open-source utilities below
+**Senior Software Quality Engineer / SDET** at **Intuit** (Mailchimp)  
+[LinkedIn](https://www.linkedin.com/in/gregory-lehman)
 
----
+I build test automation, API and RBAC validation, and CI quality gates for customer-facing SaaS. In the open, I ship small deterministic tools — rubrics, structural validators, and posting parsers — that show how I think about quality without exposing employer systems.
 
-### For recruiters & hiring managers
+## What I do
 
-I screen and staff **SDET / QE / test automation** roles. These repos turn a pasted job posting into something you can use on a phone screen in minutes — no ATS integration, no AI guesswork, no login.
+- Playwright frameworks, release test strategy, and flake-aware E2E discipline
+- REST API and matrix-driven permission testing (public repos use generic examples only)
+- Structured test design: test jams, CSV pipelines, and static gates before merge
+- Job-posting analysis CLIs derived from the same keyword and section logic I use when reading reqs
 
-| Tool | You get | Good for |
-|------|---------|----------|
-| [**recruit-brief**](https://github.com/glehman3/recruit-brief) | One-page Markdown brief | Title, level signal, must-haves, posting red flags, 5-minute screen checklist |
-| [**screen-stem**](https://github.com/glehman3/screen-stem) | ~12 phone-screen questions | Questions mapped to keywords in the JD (technical, process, logistics) |
-| [**jd-compare**](https://github.com/glehman3/jd-compare) | Side-by-side req diff | Two similar reqs (e.g. SDET II vs Senior SDET) — overlap vs unique asks |
+Production work (unified QE platform, observability, AI-assisted test design) stays in Intuit repos. Everything listed here is **portfolio demos** — runnable, documented, and safe to try locally.
 
-**Quick start** (install once per tool from its README, or clone and `pip install .`):
+## Open source
+
+### Flagship
+
+| Repo | Summary |
+|------|---------|
+| [**qe-skill**](https://github.com/glehman3/qe-skill) | Cursor QE workflow pack — test jam and case generation, risk analysis, Jira-oriented exports |
+
+### Posting utilities
+
+Deterministic CLIs (no AI, no secrets) for turning job text into structured output. Handy for comparing similar reqs or prepping interview conversations; examples use fictional companies only.
+
+| Repo | Summary |
+|------|---------|
+| [**recruit-brief**](https://github.com/glehman3/recruit-brief) | One-page Markdown brief — title, level signal, must-haves, posting flags |
+| [**screen-stem**](https://github.com/glehman3/screen-stem) | Phone-screen question stems mapped to JD keywords |
+| [**jd-compare**](https://github.com/glehman3/jd-compare) | Two-posting diff — shared vs unique requirements |
+| [jd-kit](https://github.com/glehman3/jd-kit) | Fetch, analyze, and skills-match a posting (candidate-side companion) |
 
 ```bash
-recruit-brief from - < posting.txt          # or: recruit-brief fetch <job-url>
+recruit-brief from posting.txt
 screen-stem from posting.txt --track sdet
 jd-compare req_a.txt req_b.txt
 ```
 
-Examples use fictional companies only. Demos — not connected to your ATS.
+### Quality engineering
 
----
-
-## Background
-
-- **Current:** SQE/SDET at Intuit — Playwright automation, API and RBAC validation, CI quality gates, release test strategy for customer-facing SaaS
-- **Strengths:** Structured test design, flake-aware E2E discipline, matrix-driven permission testing (no production secrets in public repos)
-- **Open source:** Small CLIs and validators that mirror how I actually work on reqs and test plans
-
-Most production depth lives in employer repos (unified QE platform, framework patterns, observability for prod debugging). The public work here shows **how** I build — rubrics, gates, and readable output — not internal Intuit systems.
-
-## Open source — quality engineering
-
-| Repo | What it is | Highlights |
-|------|------------|------------|
-| [**qe-skill**](https://github.com/glehman3/qe-skill) | Cursor QE workflow pack | Test jam / case generation, risk analysis, Jira-oriented workflows |
-
-| Repo | What it is | Why it's here |
-|------|------------|----------------|
-| [jd-kit](https://github.com/glehman3/jd-kit) | JD fetch + analyze + skills match | Candidate-side posting fetch and keyword match (pairs with **recruit-brief** above) |
-| [pw-smell](https://github.com/glehman3/pw-smell) | Playwright smell scanner | Catches `waitForTimeout`, `networkidle`, brittle selectors, weak assertions |
-| [todo-qa](https://github.com/glehman3/todo-qa) | Playwright demo suite | E2E + scoped accessibility on the [public TodoMVC demo](https://demo.playwright.dev/todomvc/#/) |
-| [jam-lint](https://github.com/glehman3/jam-lint) | Test jam CSV validator | Headers, alignment, formula-injection guards |
-| [role-gate](https://github.com/glehman3/role-gate) | RBAC matrix checker | YAML roles + allow/deny matrix examples |
+| Repo | Summary |
+|------|---------|
+| [pw-smell](https://github.com/glehman3/pw-smell) | Playwright smell scanner — `waitForTimeout`, `networkidle`, brittle selectors, weak assertions |
+| [todo-qa](https://github.com/glehman3/todo-qa) | Playwright + scoped axe on the [public TodoMVC demo](https://demo.playwright.dev/todomvc/#/) |
+| [jam-lint](https://github.com/glehman3/jam-lint) | Test jam CSV validator — headers, alignment, formula-injection guards |
+| [role-gate](https://github.com/glehman3/role-gate) | RBAC matrix checker — YAML roles and allow/deny examples |
 
 ## Stack
 
@@ -55,4 +54,4 @@ Playwright · Python · TypeScript · API testing · CI/CD (GitHub Actions, Jenk
 
 ## Connect
 
-**[LinkedIn — Gregory Lehman](https://www.linkedin.com/in/gregory-lehman)**
+[LinkedIn](https://www.linkedin.com/in/gregory-lehman)
