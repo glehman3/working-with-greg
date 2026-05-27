@@ -1,4 +1,4 @@
-# Gregory Lehman
+# Gregory Lehman - [LinkedIn](https://www.linkedin.com/in/gregory-lehman)
 
 Senior Software Quality Engineer / SDET at **Intuit** — Playwright automation, API and RBAC validation, CI/CD quality gates, and structured test design in the open.
 
@@ -48,9 +48,3 @@ Most production impact lives in employer repos. At **Intuit** (Mailchimp), that 
 ## Stack
 
 Python · TypeScript · JavaScript · Node · Playwright · pytest · GitHub Actions · Cursor Agent Skills · Jenkins · GCP · AWS
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/gregory-lehman)
-
-**Suggested pins (6 max):** `qe-skill`, `jam-lint`, `role-gate`, `todo-qa`, `pw-smell`, `jd-kit`
