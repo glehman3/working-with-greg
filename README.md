@@ -2,8 +2,6 @@
 
 Senior Software Quality Engineer / SDET at **Intuit** — Playwright automation, API and RBAC validation, CI/CD quality gates, and structured test design in the open.
 
-*9 public repos · 6 showcased here · CI on showcased tools · pytest · Playwright · GitHub Actions*
-
 I favor deterministic checks over hand-wavy quality claims: local rubrics, structural validators, and flake-aware test discipline.
 
 ## What I work on
