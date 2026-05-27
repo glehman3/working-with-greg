@@ -56,5 +56,3 @@ Playwright · Python · TypeScript · API testing · CI/CD (GitHub Actions, Jenk
 ## Connect
 
 **[LinkedIn — Gregory Lehman](https://www.linkedin.com/in/gregory-lehman)**
-
-*Profile pins (6 max):* `qe-skill`, `jam-lint`, `role-gate`, `todo-qa`, `pw-smell`, `jd-kit` — swap **`jd-kit`** for **`recruit-brief`** if you want hiring tools pinned first.
