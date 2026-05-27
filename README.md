@@ -2,35 +2,37 @@
 
 **Senior Software Quality Engineer / SDET** · Intuit (Mailchimp) · [LinkedIn](https://www.linkedin.com/in/gregory-lehman)
 
-At Intuit I focus on Playwright automation, API and RBAC validation, and CI quality gates for customer-facing SaaS. The repos below are public portfolio work—small CLIs and validators I use to exercise the same habits (structured rubrics, static gates, readable output) without pulling in employer code or secrets.
+At Intuit I work on Playwright automation, API and RBAC validation, and CI quality gates for customer-facing SaaS. A big part of my focus is **AI-assisted tooling** that speeds up structured quality work—test jams, risk analysis, exports to Jira and Sheets—without replacing engineering judgment.
+
+This repo points at that work in public: [**qe-skill**](https://github.com/glehman3/qe-skill) is the flagship Cursor suite (`/qforge`), plus smaller CLIs and validators that support the same pipelines.
 
 ## What I do
 
-- Playwright frameworks, release test strategy, and flake-aware E2E discipline
-- REST API and matrix-driven permission testing (public repos use generic examples only)
-- Structured test design: test jams, CSV pipelines, and static gates before merge
-- Job-posting analysis CLIs derived from the same keyword and section logic I use when reading reqs
-
-Production work (unified QE platform, observability, AI-assisted test design) stays in Intuit repos. Everything listed here is **portfolio demos** — runnable, documented, and safe to try locally.
+- **AI-assisted QE** — Cursor Agent Skills and `/qforge` workflows for test jam and case generation, risk analysis, and Jira-oriented handoff
+- **Automation & gates** — Playwright frameworks, flake-aware E2E, API/RBAC matrix testing, CI checks before merge
+- **Structured test design** — CSV test jams, column alignment and formula-injection guards, static Playwright smell scoring
+- **Posting rubrics** — deterministic parsers for job text (briefs, interview stems, req diffs) using the same section/keyword logic as day-to-day req review
 
 ## Open source
 
-### Flagship
+### Flagship — Quality Engineering Suite
 
 | Repo | Summary |
 |------|---------|
-| [**qe-skill**](https://github.com/glehman3/qe-skill) | Cursor QE workflow pack — test jam and case generation, risk analysis, Jira-oriented exports |
+| [**qe-skill**](https://github.com/glehman3/qe-skill) | **Quality Engineering Suite** for Cursor — `/qforge` menu, AI-guided test jam and case generation, risk analysis [beta], GitHub MCP, CSV and Jira export |
+
+Clone **qe-skill**, restart Cursor, open the folder, and run `/qforge` to try the workflow pack.
 
 ### Posting utilities
 
-Deterministic CLIs (no AI, no secrets) for turning job text into structured output. Handy for comparing similar reqs or prepping interview conversations; examples use fictional companies only.
+Deterministic CLIs for job text—structured output for comparing reqs or shaping interview prep.
 
 | Repo | Summary |
 |------|---------|
 | [**recruit-brief**](https://github.com/glehman3/recruit-brief) | One-page Markdown brief — title, level signal, must-haves, posting flags |
 | [**screen-stem**](https://github.com/glehman3/screen-stem) | Phone-screen question stems mapped to JD keywords |
 | [**jd-compare**](https://github.com/glehman3/jd-compare) | Two-posting diff — shared vs unique requirements |
-| [jd-kit](https://github.com/glehman3/jd-kit) | Fetch, analyze, and skills-match a posting (candidate-side companion) |
+| [jd-kit](https://github.com/glehman3/jd-kit) | Fetch, analyze, and skills-match a posting |
 
 ```bash
 recruit-brief from posting.txt
@@ -49,7 +51,7 @@ jd-compare req_a.txt req_b.txt
 
 ## Stack
 
-Playwright · Python · TypeScript · API testing · CI/CD (GitHub Actions, Jenkins) · GCP · AWS
+Playwright · Python · TypeScript · Cursor Agent Skills · API testing · CI/CD (GitHub Actions, Jenkins) · GCP · AWS
 
 ## Connect
 
